@@ -2,6 +2,7 @@
   "name": "managing-files-with-nodejs",
   "version": "1.0.0",
   "description": "Various scripts for the Pluralsight course Managing Files with Node",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/taylonr/managing-files-with-nodejs/issues"
   },
-  "homepage": "https://github.com/taylonr/managing-files-with-nodejs#readme"
+  "homepage": "https://github.com/taylonr/managing-files-with-nodejs#readme",
+  "dependencies": {
+    "camelcase": "^6.3.0"
+  }
 }
