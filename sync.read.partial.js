@@ -6,4 +6,4 @@ const buffer = Buffer.alloc(200);
 
 fs.readSync(fd, buffer, 0, buffer.length, 0);
 
-console.log(buffer.toString);
+console.log(buffer.toString());
